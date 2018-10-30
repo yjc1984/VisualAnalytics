@@ -1,0 +1,56 @@
+<!-- 
+
+    Adapted from Mike Bostock at bl.ocks.org
+    https://bl.ocks.org/mbostock/4062045
+
+ -->
+
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>8.6 - Node-link diagrams</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- jQuery UI CSS -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-default"></nav>
+    <!--<svg width="800" height="700"></svg>-->
+
+        <!-- Bootstrap grid setup -->
+        <div class="container">
+            <div id="selections" class="row">
+                <div class="col-md-4">
+                    <select id="lista-grupos" class="form-control">
+                        <option selected value="0">Todos</option>
+                        <option value="1">Colombia</option>
+                        <option value="3">Peru</option>
+                        <option value="4">Sur America</option>
+                        <option value="5">Centro America</option>
+                        <option value="6">Norte America</option>
+                        <option value="2">Europa</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div id="chart-area"></div>  
+            </div>
+        </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/Rutas.js"></script>
+
+</body>
